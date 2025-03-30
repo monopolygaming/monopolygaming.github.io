@@ -1,0 +1,32 @@
+html {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+#container {
+    margin: 20px;
+    text-align: center;
+}
+
+#links {
+    margin-top: 10px;
+}
+
+#links a {
+    margin: 2px;
+}
+
+iframe {
+    border-style: none;
+}
+
+a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
