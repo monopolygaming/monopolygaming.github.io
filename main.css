@@ -4,6 +4,10 @@ html {
     color: white;
 }
 
+body {
+    margin: 0;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -13,72 +17,61 @@ a:hover {
     text-decoration: underline;
 }
 
+hr {
+    border: 1px solid white;
+}
+
 #container {
-    width: 620px;
-    margin: 20px auto;
-}
-
-#logo {
-    margin-bottom: 10px;
-}
-
-#header {
-    background-color: #303030;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-#content {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    max-width: 600px;
+    margin: 40px auto;
 }
 
 #main {
-    padding: 10px;
-    width: 420px;
-    background-color: #303030;
-}
-
-#main p {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #other {
-    padding: 5px;
-    width: 160px;
-    height: 145px;
-    background-color: #252525;
-}
-
-#funnytext {
-    color: grey;
-    font-size: small;
-    font-style: italic;
-    margin: 5px;
+    width: 200px;
 }
 
 #other ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 5px;
+    padding: 0px 35px;
 }
 
 #other li {
-    margin-bottom: 5px;
+    margin: 10px 0px;
+}
+
+#profilePicture {
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.content p {
+    margin: 4px 0px;
 }
 
 #footer {
-    background-color: #303030;
-    padding: 5px;
-}
-
-#webbuttons {
-    margin: 20px;
+    margin: 20px 0px;
     text-align: center;
 }
 
-#webbuttons a:hover {
-    background-color: white;
+#additional {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#additional a {
+    color: grey;
+    font-size: small;
+}
+
+.webButton:hover {
+    filter: brightness(60%);
 }
